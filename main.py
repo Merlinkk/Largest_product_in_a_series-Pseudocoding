@@ -1,5 +1,5 @@
 num = 2709360626                                        #series in variable num
-k = 3                                                   # k is contiguous digits
+k = 3                                                   # k is size of continuous digits numbers chosen from the series
 largest = 0                                             # initiliazing value of largest so we can compare
 while num> 0:  # // 10 ** (k - 1)                       # using while loop here 
     digits = num % 10 ** k                              # this gives us % of num with 10 to the power k >> here it gives 626
